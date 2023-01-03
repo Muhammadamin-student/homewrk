@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Livvic', sans-serif;
+}
+
+.container {
+    max-width: 1090px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 120px;
+    padding-top: 70px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+    padding-left: 40px;
+}
+
+.menu img {
+    padding-right: 40px;
+}
+
+
+.btn {
+    color: white;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    padding: 9px 33px;
+    background-color: transparent;
+}
+
+.btn1 {
+    margin-top: 50px;
+    color: #002529;
+    border: 2px solid #002529;
+    border-radius: 24px;
+    padding: 9px 33px;
+    background-color: transparent;
+}
+
+#begin {
+    background-image: url(../images/Group\ 7\ \(1\).png);
+    height: 700px;
+}
+
+#easy {
+    background-image: url(../images/bgc-2.png);
+}
+
+#about {
+    background-image: url(../images/bgc-3.png);
+}
+
+#contact {
+    background-image: url(../images/bgc-4.png);
+}
+
+#lo2  {
+    background: #002529;
+}
+
+#humburger {
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+
+#navbar-close {
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+
+#navbar-responsive {
+    position: fixed;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    right: -100%;
+    height: 100vh;
+    width: 80%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/Group\ 8.png);
+    transition: 0.5s;
+}
+
+#navbar-responsive p {
+    font-size: 50px;
+    color: #002529;
+    padding-top: 10px;
+}
+
+#navbar-close {
+    padding-left: 100px;
+}
+
+.p {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+.tal {
+    color: #CB7576;
+}
+
+.begun1 {
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.begun1 p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.cv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding-bottom: 250px;
+}
+
+.build {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.like23 div {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F67E7E;
+}
+
+.like23 p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-top: 16px;
+}
+
+.like23 {
+    padding-left: 20px;
+}
+
+.sec-2 {
+    padding: 140px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+    padding-top: 32px;
+    display: flex;
+}
+
+.df {
+    color: #79C8C7;
+}
+
+.about {
+    padding: 140px 0;
+}
+
+.about__p {
+    padding-bottom: 90px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.card-2 h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    padding: 24px 0 2px;
+}
+
+.card-2 p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card-2 i {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.img-3 {
+    text-align: center;
+}
+
+.i {
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.aboutus {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.btn-end button {
+    padding: 9px 31px 11px;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    background: transparent;
+}
+
+
+.ready {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+    color: #012F34;
+}
+
+.cont-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 76px 0;
+}
+
+.lo2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0;
+
+}
+
+.hjk {
+    display: flex;
+}
+
+.footer0 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #395659;
+}
+
+.lopi {
+    padding-left: 120px;
+}
+
+.jk {
+    padding-top: 50px;
+}
+
+.img-4 {
+    text-align: end;
+}
+
+.kk a:last-child {
+    padding-left: 40px;
+}
+
+.kk {
+    padding-top: 25px;
+}
+
+.kk a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.b:hover {
+    color: #002529;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+}
+
+.btn-end button:hover {
+    background: #012F34;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    color: #FFFFFF;
+}
+.btn a {
+    color: #FFFFFF;
+}
+.btn:hover a {
+    color: #002529;
+}
+
+@media (max-width: 600px) {
+    .menu a {
+        display: none;
+    }
+
+    #humburger {
+        display: block;
+    }
+
+    #navbar-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 99;
+        display: block;
+    }
+
+    .nav {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .cv {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .sec-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .begun1 {
+        margin: 0 auto;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card * {
+        text-align: center;
+    }
+
+    .card img {
+        margin: 0 auto;
+        width: 72px;
+        height: 72px;
+    }
+
+    .aboutus {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 24px;
+    }
+
+    .about__p {
+        padding: 0 24px 80px;
+    }
+
+    .img-3 {
+        padding-bottom: 20px;
+    }
+
+    .cont-1 {
+        flex-direction: column;
+    }
+
+    .cont-1 * {
+        text-align: center;
+    }
+
+    .btn-end {
+        padding-top: 50px;
+    }
+
+    .hjk {
+        flex-direction: column;
+    }
+
+    .lopi {
+        padding-left: 0;
+        padding: 24px 0 40px;
+    }
+
+    .lo2 {
+        flex-direction: column;
+    }
+
+    .lo2 * {
+        text-align: center;
+    }
+
+    .jk {
+        padding-top: 16px;
+        text-align: center;
+    }
+
+    .build {
+        padding: 0 111px 50px 24px;
+    }
+}
